@@ -21,8 +21,10 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "zf-commons/zfc-user": "1.*",
         "doctrine/doctrine-orm-module": "0.*"
+    },
+    "require-dev" : {
+    	"zf-commons/zfc-user": "0.*||1.*||2.*"
     },
     "extra": {
         "branch-alias": {
